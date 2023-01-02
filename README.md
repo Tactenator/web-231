@@ -1,2 +1,8 @@
 # web-231
-Repository for class
+
+<h1>WEB 231 Enterprise JavaScript I</h1>
+<h2>Contributors</h2>
+ <ul>
+    <li>Robert Kumar</li>
+    <li>Trevor McLaurine</li>
+ </ul>
