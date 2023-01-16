@@ -1,0 +1,14 @@
+#container {
+    width: 600px; 
+    margin:0 auto; 
+}
+
+.app-header {
+    text-align: center;
+    font-weight: 400; 
+}
+
+#results {
+    text-align: center;
+    font-size: 28px;
+}
