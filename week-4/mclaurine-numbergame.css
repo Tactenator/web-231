@@ -1,0 +1,21 @@
+/**
+    Title: mclaurine-number.css, 
+    Author: Trevor McLaurine
+    Date: 1/23/2023
+    Description: Styling for Number Guessing Game
+**/
+
+#container {
+    width: 600px; 
+    margin:0 auto; 
+}
+
+.app-header {
+    text-align: center;
+    font-weight: 400; 
+}
+
+#results {
+    text-align: center;
+    font-size: 28px;
+}

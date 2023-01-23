@@ -1,0 +1,46 @@
+<!--
+    Title: mclaurine-number.html, 
+    Author: Trevor McLaurine
+    Date: 1/23/2023
+    Description: Number Guessing Game
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mclaurine-numbergame.css">
+    <link rel="stylesheet" href="../global.css">
+    <script src="./mclaurine-numbergame.js"></script>
+    <title>WEB 231 - Enterprise JavaScript I</title>
+</head>
+<body>
+    <div id="container">
+        <h1 class="app-header">Welcome to the Numbers Game!</h1>
+        <div class="card">
+            <div class="card-title">Pick a number between 1 and 10</div>
+            <div class="card-content">
+                <div class="form">
+                    <div class="form-field">
+                        <label for="txtUserGuess">Guess the number:</label>
+                        <input type="text" id="txtMyNumber">
+                    </div>
+                    
+                    <div class="form-field">
+                        <button class ="btn btn-primary" id="btnSubmit">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-title">Results</div>
+            <div class="card-content">
+                <div id="results"></div>
+            </div>
+        </div>
+        <a class="return-home" href="../index.html">Return</a>
+    </div>
+</body>
+</html>
