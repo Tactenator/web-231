@@ -15,8 +15,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const myNumber = document.getElementById('txtMyNumber')
 
     // Produces a random number between 1 and 10
-    const rnd = Math.floor((Math.random() * 10) + 1);
-    console.log(rnd)
+    const rnd = Math.floor((Math.random() * 10) + 1)
     
     //This is where the user's guess will be checked to see if the results are
     function checkGuess(e) {
