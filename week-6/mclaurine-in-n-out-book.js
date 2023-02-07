@@ -2,8 +2,8 @@
     ==================
     Title: mclaurine-in-n-out-books.js, 
     Author: Trevor McLaurine
-    Date: 1/30/2023
-    Description: A game that displays a sequence of numbers based on a user selection.
+    Date: 2/7/2023
+    Description: An app that displays favorite authors and books.
 */
 
 // This bit of code checks to see if the HTML document has loaded.
