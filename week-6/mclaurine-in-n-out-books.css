@@ -1,0 +1,46 @@
+/**
+    Title: mclaurine-in-n-out-books.css, 
+    Author: Trevor McLaurine
+    Date: 1/23/2023
+    Description: Styling for Sequence Game
+**/
+
+#container {
+    width: 600px; 
+    margin:0 auto; 
+}
+
+.app-header {
+    text-align: center;
+    font-weight: 400; 
+}
+
+#results {
+    text-align: center;
+    font-size: 28px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%; 
+    margin-bottom: 30px; 
+}
+
+.table-header {
+    padding: 12px 0; 
+    text-align: left;
+    background: #4F3674;
+    color: #fff; 
+    border: 1px solid #ddd; 
+}
+
+tr:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+    cursor: pointer; 
+}
+
+td {
+    border: 1px solid #ddd
+}
+
