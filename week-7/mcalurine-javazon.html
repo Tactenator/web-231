@@ -1,0 +1,89 @@
+<!--
+    Title: mclaurine-javazon.html, 
+    Author: Trevor McLaurine
+    Date: 2/13/2023
+    Description: Javazon Application
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mclaurine-javazon.css">
+    <link rel="stylesheet" href="../global.css">
+    <script src="./mclaurine-javazon.js"></script>
+    <title>WEB 231 - Enterprise JavaScript I</title>
+</head>
+<body>
+    <div id="container">
+        <h1 class="app-header">Welcome to the Javazon App!</h1>
+        <div class="card">
+            <div class="card-title">Javazon Selection Form</div>
+            <div class="card-content">
+                <div class="form">
+                    <div class="form-field">
+                        <label for="selectMySequence">Choose a listing:</label>
+                        <select name="choice" class="drop-down-menu" id="choice">
+                            <option value="select">--Select--</option>
+                            <option value="products">Products</option>
+                            <option value="services">Services</option>
+                            <option value="employees">Employees</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-field">
+                        <button class ="btn btn-primary" id="btnDisplayListing">Display Listing</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div id="products">
+                    <div class="card-title">Javazon Products</div>
+                    <table>
+                        <tbody id="products-table">
+                            <tr class="table-header">
+                                <th>Product ID</th>
+                                <th>Desciption</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Total Value</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="services">
+                    <div class="card-title">Javazon Services</div>
+                    <table>
+                        <tbody id="services-table">
+                            <tr class="table-header">
+                                <th>Service ID</th>
+                                <th>Desciption</th>
+                                <th>Hourly Rate</th>
+                                <th>Minimum Billable Hours</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="employees">
+                    <div class="card-title">Javazon Employees</div>
+                    <table>
+                        <tbody id="employees-table">
+                            <tr class="table-header">
+                                <th>Employee ID</th>
+                                <th>Last Name</th>
+                                <th>First Name</th>
+                                <th>Salary</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <a class="return-home" href="../index.html">Return</a>
+    </div>
+</body>
+</html>
