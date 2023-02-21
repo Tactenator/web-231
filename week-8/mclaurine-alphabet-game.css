@@ -15,7 +15,7 @@
     font-weight: 400; 
 }
 
-#results {
+#alphabet-letter-div, #alphabet  {
     text-align: center;
     font-size: 28px;
 }

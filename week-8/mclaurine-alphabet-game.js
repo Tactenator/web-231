@@ -23,7 +23,7 @@ window.addEventListener("DOMContentLoaded", () => {
     for (letter in alphabet) {
 
         //adds the letter of the alphabet to the output string
-        alphabetOutput += (alphabet[letter] + ',');
+        alphabetOutput += (alphabet[letter].toUpperCase() + ',');
     }
 
     //cuts off the trailing comma at the end of the string
@@ -39,7 +39,7 @@ window.addEventListener("DOMContentLoaded", () => {
         }
         else {
             //if the user input falls within the number of letters in the alphabet, the position is displayed.
-            alphabetLetterDiv.innerHTML = (`${letter} is at position ${pos} in the alphabet`)
+            alphabetLetterDiv.innerHTML = (`${letter.toUpperCase()} is at position ${pos} in the alphabet`)
         }
     }
 
