@@ -1,0 +1,52 @@
+<!--
+    Title: mclaurine-alphabet-game.html, 
+    Author: Trevor McLaurine
+    Date: 2/20/2023
+    Description: Alphabet Game Application
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mclaurine-alphabet-game.css">
+    <link rel="stylesheet" href="../global.css">
+    <script src="./mclaurine-alphabet-game.js"></script>
+    <title>WEB 231 - Enterprise JavaScript I</title>
+</head>
+<body>
+    <div id="container">
+        <h1 class="app-header">Welcome to the Alphabet Game!</h1>
+        <div class="card">
+            <div class="card-title">Alphabet Number Form</div>
+            <div class="card-content">
+                <div class="form">
+                    <div class="form-field">
+                        <label for="txtUserInput">Alphabet Letter Position</label>
+                        <input type="text" id="txtPosition">
+                    </div>
+                    
+                    <div class="form-field">
+                        <button class ="btn btn-primary" id="btnFindLetter">Find Letter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="card-title">Letters in the Alphabet</div>
+                <div id="alphabet"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-title">Results</div>
+            <div class="card-content">
+                <div id="alphabet-letter-div"></div>
+            </div>
+        </div>
+        <a class="return-home" href="../index.html">Return</a>
+    </div>
+</body>
+</html>
