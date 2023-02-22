@@ -10,6 +10,7 @@
 window.addEventListener("DOMContentLoaded", () => { 
     const CARD_COUNT = 52 
     let cards = [] 
+    const playerCards = document.getElementById('player-card-container')
 
     const dealCardsBtn = document.getElementById('btnDealCards')
 
@@ -40,8 +41,10 @@ window.addEventListener("DOMContentLoaded", () => {
                     cards[firstCard] = secondCard; 
                     secondCard = tempCard; 
                 }
-                checkCard(); 
-                //bind to the player card container di
+                playerCards.innerHTML = checkCard(); 
+                //bind to the player card container div
+                
+                
         }
     }
 
@@ -71,8 +74,8 @@ window.addEventListener("DOMContentLoaded", () => {
     }
 
     const buildPlayingCard = (card,suitIcon, faceColor, suitColor) => {
-        return `<div class="card player-card">
-                    <div class="card-title" style="text-align: left; font-size: 20px; padding-left: 10px; color= ${faceColor};">
+        return `<div class="player-card">
+                    <div class="card-title" style="text-align: left; font-size: 20px; padding-left: 10px; color=${faceColor};">
                         <div class="card-content" style="font-size: 28px; padding-bottom: 25px; ">
                             <span class=${suitIcon} style="color: ${suitColor}">${card.faces}<span>
                         </div>
