@@ -41,7 +41,7 @@ window.addEventListener("DOMContentLoaded", () => {
                     secondCard = tempCard; 
                 }
                 checkCard(); 
-                //bind to the player card container div
+                //bind to the player card container di
         }
     }
 
